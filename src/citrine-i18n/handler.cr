@@ -1,7 +1,7 @@
 module Citrine
-  module Pipe
+  module I18n
     # Handler to initialize I18n for the request.
-    class I18n
+    class Handler
       include HTTP::Handler
       HEADER = "Accept-Language"
 
