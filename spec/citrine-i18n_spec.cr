@@ -13,7 +13,7 @@ describe Citrine::I18n::Handler do
     context = create_context(request)
     handler = Citrine::I18n::Handler.new
     handler.call(context)
-    I18n.locale.should eq "fr"
+    context.locale.should eq "fr"
   end
 
   it "should set language from complicated header" do
@@ -22,7 +22,7 @@ describe Citrine::I18n::Handler do
     context = create_context(request)
     handler = Citrine::I18n::Handler.new
     handler.call(context)
-    I18n.locale.should eq "en"
+    context.locale.should eq "en"
   end
 
 end
