@@ -1,11 +1,11 @@
 name: citrine-i18n
 
-version: 0.1.0
+version: 0.2.0
 
 authors:
   - Amber Team and Contributors <amberframework.org>
 
-crystal: 0.24.1
+crystal: 0.24.2
 
 license: MIT
 
