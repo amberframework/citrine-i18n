@@ -1,6 +1,6 @@
 name: citrine-i18n
 
-version: 0.3.1
+version: 0.3.2
 
 authors:
   - Amber Team and Contributors <amberframework.org>
@@ -11,5 +11,5 @@ license: MIT
 
 dependencies:
   i18n:
-    github: amberframework/i18n.cr
+    github: TechMagister/i18n.cr
     version: 0.2.0
