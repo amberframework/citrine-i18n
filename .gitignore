@@ -1,1 +1,6 @@
-lib
+.vscode/
+.DS_Store
+lib/
+.shards/
+/tmp
+shard.lock

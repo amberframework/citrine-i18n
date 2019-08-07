@@ -1,6 +1,0 @@
-version: 1.0
-shards:
-  i18n:
-    github: TechMagister/i18n.cr
-    version: 0.3.1
-
